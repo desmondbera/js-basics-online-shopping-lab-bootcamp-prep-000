@@ -41,10 +41,13 @@ function viewCart() {
   } 
 }
 function total() {
+  var sum = 0 
   var i = 0 
   while (i < cart.length) {
-    
+    sum += cart.item
+    i++
   }
+  return sum 
 }
 
 function removeFromCart(item) {
