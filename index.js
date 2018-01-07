@@ -67,7 +67,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   var isCardNumPresent = false;
   
-  if(cardNumber > 0) {
+  if(cardNumber.length > 7) {
     console.log(`Your total cost is ${total()}, which will be charged to your ${cardNumber}`)
   }
   
