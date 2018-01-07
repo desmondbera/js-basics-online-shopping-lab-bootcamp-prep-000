@@ -42,8 +42,8 @@ function viewCart() {
     }
 */    
      console.log(`In your cart, you have ${cartItems.join(', ')}, and ${Object.keys(cart[cart.length-1])} at $${Object.values(cart[cart.length-1])}.`)
-} 
-
+  } 
+}
 function total() {
   // write your code here
 }
