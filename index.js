@@ -37,10 +37,6 @@ function viewCart() {
     for(var i = 0; i < cart.length - 1; i++) {
       cartItems.push(`${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}`)
     }
-    
-/*    console.log(`In your cart, you have ${cartItems}, and ${Object.keys(cartItems[cartItems.length - 1])} at $${cartItems[cartItems.length - 1][Object.keys(cartItems[cartItems.length - 1])]}.`)
-    }
-*/    
      console.log(`In your cart, you have ${cartItems.join(', ')}, and ${Object.keys(cart[cart.length-1])} at $${Object.values(cart[cart.length-1])}.`)
   } 
 }
