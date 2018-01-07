@@ -52,7 +52,9 @@ function total() {
 
 function removeFromCart(item) {
   var hasItemInCart = false;
-  
+  for(var i = 0; i < cart.length; i++) {
+    
+  }
   
   
   if(!hasItemInCart) {
