@@ -51,7 +51,13 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if(item ===)
+  var hasItemInCart = false;
+  
+  
+  
+  if(!hasItemInCart === true) {
+    console.log("That item is not in your cart.")
+  }
 }
 
 function placeOrder(cardNumber) {
