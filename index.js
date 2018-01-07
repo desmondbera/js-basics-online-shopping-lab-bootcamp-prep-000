@@ -41,7 +41,10 @@ function viewCart() {
   } 
 }
 function total() {
-  
+  var i = 0 
+  while (i < cart.length) {
+    
+  }
 }
 
 function removeFromCart(item) {
